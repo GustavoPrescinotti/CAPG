@@ -25,6 +25,7 @@ body {
 .container {
     max-width: 1300px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 h1, h2, h3, h4 {
@@ -261,7 +262,11 @@ footer {
 }
 
 .footer-logo img {
-    height: 30px;
+    height: auto;
+    max-height: 146px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
 }
 
 .footer-links {
